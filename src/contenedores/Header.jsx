@@ -31,10 +31,10 @@ export default function Header() {
         </p>
       </div>
       <div className="read-the-docs ">
-        <button className='text-blue-600 mr-2 dark:bg-slate-900 bg-slate-100' onClick={handleDownload}>
+        <button className='text-blue-600 mr-2 dark:bg-slate-900 bg-slate-100 py-[0.6em] px-[1.2em]' onClick={handleDownload}>
           Descargar CV
         </button>
-        <button onClick={toggleModal} className='text-blue-600 mr-2 dark:bg-slate-900 bg-slate-100'>
+        <button onClick={toggleModal} className='text-blue-600 mr-2 dark:bg-slate-900 bg-slate-100 px-[1.2em] py-[0.6em]'>
           Contáctame
         </button>
       </div>
