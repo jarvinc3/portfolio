@@ -1,0 +1,38 @@
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+.float-animation {
+    animation: float 2s ease-in-out infinite;
+}
+
+
+.card {
+    padding: 15px;
+    border-radius: 23px;
+    transition: all 0.8s cubic-bezier(0.15, 0.83, 0.66, 1);
+    cursor: pointer;
+  }  
+.card:hover {
+    transform: scale(1.05);
+  }
+
+
+.cardsk {
+    cursor: context-menu;
+    transition: all 0.3s ease;
+  }
+  
+ .cardsk:hover {
+    transform: translateY(-10px);
+  }

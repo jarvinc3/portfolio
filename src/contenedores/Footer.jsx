@@ -1,8 +1,8 @@
-import './s.css'
+import '/css/s.css'
 
 export default function Footer() {
   return (
-    <div className='h-[100vh]'>
+    <div className='footer'>
       <div className="card">
         <div className="background"></div>
         <div className="logo">Redes</div>
