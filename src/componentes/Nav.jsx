@@ -9,7 +9,7 @@ function Nav() {
      lg:shadow-xl xl:shadow-2xl">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#inicio" className="flex items-center">
-          <img src="/img/portfolio.png" className="h-8 mr-3 text-white" alt="Logo" />
+        <img className="h-8 mr-3 text-white" src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/portfolio.png" alt="logo"/>
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Portafolio</span>
         </a>
         <button
