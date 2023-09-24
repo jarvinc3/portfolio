@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Nav from '../componentes/Nav';
+import Info from '../componentes/Info';
 export default function Header() {
 
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -21,6 +22,7 @@ export default function Header() {
   return (
     <div id='inicio' className='header h-screen'>
       <Nav />
+      <Info/>
       <div className=''>
         <h2>Hello👋    I`m</h2>
       </div>
