@@ -85,16 +85,16 @@ button:focus-visible {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #7566d8;
+  background-color: #f1f1f1;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #580d87;
+  background-color: #888;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #550388;
-
+  background: rgb(116, 6, 136);
+background: radial-gradient(circle, rgb(85, 5, 92) 0%, rgb(86, 7, 86) 63%);
 }
 
