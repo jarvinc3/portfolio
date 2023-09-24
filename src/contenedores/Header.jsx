@@ -202,8 +202,8 @@ export default function Header() {
                   <li>
                     <a href="mailto:mangomc03@gmail.com" className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white">
                       <img width="40" height="40" src="https://img.icons8.com/nolan/40/gmail-new.png" alt="gmail-new" />
-                      <span className="flex-1 ml-3 whitespace-nowrap w-[40px]">mangomc03@gmail.com</span>
-                      <span className="inline-flex items-center justify-center px-2 py-0.5 ml-3 text-xs font-medium text-gray-500 bg-gray-200 rounded dark:bg-gray-700 dark:text-gray-400">Popular</span>
+                      <span className=" ml-3 whitespace-nowrap">Gmail</span>
+                      <span className="hidden md:inline-flex items-center justify-center px-2 py-0.5 ml-3 text-xs font-medium text-gray-500 bg-gray-200 rounded dark:bg-gray-700 dark:text-gray-400">Popular</span>
                     </a>
                   </li>
 
