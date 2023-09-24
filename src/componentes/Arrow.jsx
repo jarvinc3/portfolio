@@ -11,7 +11,7 @@ export default function Arrow() {
             About
             <img className="w-[50px]" src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/resize-vertical.png" alt="resize-vertical"/>
         </a>
-        <a className="flex items-center" href="#">
+        <a className="flex items-center" href="#works">
             Works
             <img className="w-[50px]" src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/thick-arrow-pointing-down--v2.png" alt="thick-arrow-pointing-down--v2"/>
         </a>

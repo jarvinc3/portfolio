@@ -1,8 +1,7 @@
 import Arrow from "./componentes/Arrow";
 import Header from "./contenedores/Header";
 import Main from "./contenedores/Main";
-
-
+// import Footer from "./contenedores/Footer"
 
 
 const App = () => {
@@ -13,6 +12,7 @@ const App = () => {
       <Arrow />
       <Header />
       <Main />
+      {/* <Footer/> */}
     </div>
   );
 };
