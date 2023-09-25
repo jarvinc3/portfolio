@@ -21,7 +21,7 @@ export default function Footer() {
                         </a>
                     </div>
                     <div className='footer flex flex-col justify-center'>
-                        <h3 className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Do you want to rating me?</h3>
+                        <h3 className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Do you want to rate me?</h3>
                         <div className="rating justify-center flex">
                             {[1, 2, 3, 4, 5].map((star) => (
                                 <React.Fragment key={star}>
