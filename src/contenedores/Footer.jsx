@@ -13,7 +13,7 @@ export default function Footer() {
         <footer className="">
             <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                <div className="md:flex md:flex-row md:justify-around gap-8 flex flex-col">
+                <div className="md:flex md:flex-row md:justify-between gap-8 flex flex-col">
                     <div className="mb-6 md:mb-0 hidden md:flex">
                         <a href="#inicio" className="flex items-center">
                             <img className="h-8 mr-3 text-white" src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/portfolio.png" alt="logo" />
@@ -22,7 +22,7 @@ export default function Footer() {
                     </div>
                     <div className='footer flex flex-col justify-center'>
                         <h3 className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Do you want to rating me?</h3>
-                        <div className="rating justify-center hidden md:flex">
+                        <div className="rating justify-center flex">
                             {[1, 2, 3, 4, 5].map((star) => (
                                 <React.Fragment key={star}>
                                     <input type="radio" id={`star-${star}`} name="star-radio" value={`star-${star}`} onClick={() => handleStarClick(star)} />
