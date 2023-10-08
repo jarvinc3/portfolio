@@ -9,19 +9,19 @@ export default function Header() {
     setIsModalVisible(!isModalVisible);
   };
 
-  const handleDownload = () => {
-    const pdfUrl = '/public/cv.pdf';
+  // const handleDownload = () => {
+  //   const pdfUrl = '/public/cv.pdf';
 
-    const link = document.createElement('a');
-    link.href = pdfUrl;
-    link.download = 'cv.pdf';
-    link.click();
-  };
+  //   const link = document.createElement('a');
+  //   link.href = pdfUrl;
+  //   link.download = 'cv.pdf';
+  //   link.click();
+  // };
 
   return (
     <div id='inicio' className='header h-screen'>
       <Nav />
-      <Info/>
+      <Info />
       <div className=''>
         <h2>Hello👋    I`m</h2>
       </div>
@@ -33,7 +33,7 @@ export default function Header() {
         </p>
       </div>
       <div className="flex gap-6">
-        <button onClick={handleDownload} className="group cursor-pointer relative w-[120px] h-[60px] bg-[linear-gradient(144deg,_#af40ff,_#5b42f3_50%,_#00ddeb)] text-white whitespace-nowrap flex flex-wrap rounded-lg overflow-hidden">
+        {/* <button onClick={handleDownload} className="group cursor-pointer relative w-[120px] h-[60px] bg-[linear-gradient(144deg,_#af40ff,_#5b42f3_50%,_#00ddeb)] text-white whitespace-nowrap flex flex-wrap rounded-lg overflow-hidden">
           <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none">Download CV</span>
           <div className="w-[10px] h-[10px] blur-[5px] bg-[rgb(30,41,59)] delay-[0.2s] duration-[0.4s] hover:bg-transparent hover:delay-0 hover:duration-0 group-focus:bg-transparent group-focus:delay-[0.5s]"></div>
           <div className="w-[10px] h-[10px] blur-[5px] bg-[rgb(30,41,59)] delay-[0.2s] duration-[0.4s] hover:bg-transparent hover:delay-0 hover:duration-0 group-focus:bg-transparent group-focus:delay-[2s]"></div>
@@ -107,7 +107,7 @@ export default function Header() {
           <div className="w-[10px] h-[10px] blur-[5px] bg-[rgb(30,41,59)] delay-[0.2s] duration-[0.4s] hover:bg-transparent hover:delay-0 hover:duration-0 group-focus:bg-transparent group-focus:delay-[2.35s]"></div>
           <div className="w-[10px] h-[10px] blur-[5px] bg-[rgb(30,41,59)] delay-[0.2s] duration-[0.4s] hover:bg-transparent hover:delay-0 hover:duration-0 group-focus:bg-transparent group-focus:delay-[0.4s]"></div>
           <div className="w-[10px] h-[10px] blur-[5px] bg-[rgb(30,41,59)] delay-[0.2s] duration-[0.4s] hover:bg-transparent hover:delay-0 hover:duration-0 group-focus:bg-transparent group-focus:delay-[1.35s]"></div>
-        </button>
+        </button> */}
         <button onClick={toggleModal} className="group cursor-pointer relative w-[120px] h-[60px] bg-[linear-gradient(144deg,_#af40ff,_#5b42f3_50%,_#00ddeb)] text-white whitespace-nowrap flex flex-wrap rounded-lg overflow-hidden">
           <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none">Contact me</span>
           <div className="w-[10px] h-[10px] blur-[5px] bg-[rgb(30,41,59)] delay-[0.2s] duration-[0.4s] hover:bg-transparent hover:delay-0 hover:duration-0 group-focus:bg-transparent group-focus:delay-[0.5s]"></div>
@@ -236,12 +236,9 @@ export default function Header() {
                   </li>
 
                   <li>
-                    <a href="#" className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white">
+                    <a href="https://www.linkedin.com/in/jarvin-collado/" className="flex items-center p-3 text-base font-bold text-gray-900 rounded-lg bg-gray-50 hover:bg-gray-100 group hover:shadow dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-white">
                       <img width="40" height="40" src="https://img.icons8.com/nolan/40/1A6DFF/C822FF/linkedin-circled.png" alt="linkedin-circled" />
                       <span className="ml-3">Linkedin</span>
-                      <span className="inline-flex items-center justify-center px-2 py-0.5 ml-3 text-xs font-medium text-gray-500 bg-red-200 rounded dark:bg-red-700 dark:text-red-400">
-                        aun no habilitado
-                      </span>
                     </a>
                   </li>
                 </ul>

@@ -1,5 +1,5 @@
 import Cards from "./Cards";
-import Other from "./Other";
+// import Other from "./Other";
 
 
 export default function Works() {
@@ -15,9 +15,9 @@ export default function Works() {
         <Cards />
       </section>
 
-      <section>
+      {/* <section>
         <Other/>
-      </section>
+      </section> */}
     </div>
   )
 }

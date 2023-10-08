@@ -68,7 +68,7 @@ export default function Cards() {
             </div>
 
             <div className="cards flex flex-col md:flex-row items-center text-center md:text-right gap-5 md:gap-[100px] bg-gradient-to-r from-yellow-100 via-transparent to-transparent border border-gray-200 rounded-lg  hover:bg-gray-100 dark:hover:bg-gray-800 dark:border-gray-700 dark:bg-gradient-to-r dark:from-gray-900 dark:via-transparent dark:to-black px-4 dark:shadow-md dark:md:shadow-lg dark:lg:shadow-xl dark:xl:shadow-2xl shadow-md md:shadow-lg lg:shadow-xl xl:shadow-2xl">
-                <img className="max-w-[300px] md:max-w-[700px] rounded-lg" src="https://scontent.fhex10-1.fna.fbcdn.net/v/t39.30808-6/387810483_3488590214745465_8092718027605365195_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeHWOEfRvMP7a0pGFZW-FBLxCfpJRd9F7wwJ-klF30XvDCrUZ1a3iNve4JyQZ8-Zk9M77s4rMTJXAacnckArh6fm&_nc_ohc=CUGPXlnVMioAX-Z0qsV&_nc_ht=scontent.fhex10-1.fna&oh=00_AfCzT6ch0S87YfQBp9A9z8VIGgZB5OH-XpAzW_YCY52m7g&oe=6527A447" alt="App del clima" />
+                <img className="max-w-[300px] md:max-w-[700px] rounded-lg" src="/user-registrer.png" alt="App del clima" />
                 <section className="flex flex-col justify-center gap-5 md:gap-14 pr-6">
                     <h2 className=" text-xl font-semibold" >User registrer</h2>
                     <div className="flex justify-center md:justify-end">
