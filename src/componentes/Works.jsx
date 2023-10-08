@@ -1,4 +1,5 @@
 import Cards from "./Cards";
+import Other from "./Other";
 
 
 export default function Works() {
@@ -12,6 +13,10 @@ export default function Works() {
      
       <section className="">
         <Cards />
+      </section>
+
+      <section>
+        <Other/>
       </section>
     </div>
   )

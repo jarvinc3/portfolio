@@ -39,7 +39,6 @@ export default function Skills() {
                         Bootstrap5
                         <img className="w-[20px]" width="48" height="48" src="https://img.icons8.com/color-glass/48/bootstrap.png" alt="bootstrap"/>
                     </h5>
-                    
                 </div>
             </div>
 

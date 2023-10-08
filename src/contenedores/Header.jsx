@@ -10,12 +10,11 @@ export default function Header() {
   };
 
   const handleDownload = () => {
-    const pdfUrl = '/img/CV.pdf';
+    const pdfUrl = '/public/cv.pdf';
 
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.download = 'cv.pdf';
-
     link.click();
   };
 

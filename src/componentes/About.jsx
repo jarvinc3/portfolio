@@ -6,7 +6,7 @@ export default function About() {
         <div id="about" className="flex flex-col items-center justify-center gap-10">
             <div className="flex flex-col items-center md:flex-row nd:gap-8 gap-4 ">
                 <div className="code-container float-animation">
-                    <img className="md:w-36 w-28 mb-3 rounded-full shadow-lg" width={170} src="/img/yo.png" alt="Jarvin" />
+                    <img className="md:w-36 w-28 mb-3 rounded-full shadow-lg" width={170} src="https://scontent.fhex10-1.fna.fbcdn.net/v/t39.30808-6/350497799_1232602794116819_9172894670090979473_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeEUCFkGJDEOFpsfDMrrFft89R0C2U4PLqL1HQLZTg8uosKKfwQ6zIpAf4dL0wXizyUrFc3FxIp6n9tL9rLmOZkr&_nc_ohc=HCXIh0asTEoAX9yF9nq&_nc_ht=scontent.fhex10-1.fna&oh=00_AfCZaOClBdC_VSQJwTDErKZFMXARW4CHJ12-wLZvETrfTg&oe=65274994" alt="Jarvin" />
                 </div>
                 <section className="cardi flex flex-col items-center pb-3 bg-gradient-to-r from-yellow-100 via-transparent to-transparent 
                     border border-gray-200 rounded-lg md:flex-row md:max-w-xl hover:bg-gray-100 dark:hover:bg-gray-800
@@ -17,15 +17,6 @@ export default function About() {
                         <p>I am a full stack web developer. I like to learn and can learn very quickly, organized, fast solving problems, friendly and cooperative.
                         </p>
                     </div>
-                    <button className="cssbuttons-io-button md:right-[-5px] md:top-[50px]">
-                        View more
-                        <div className="icon">
-                            <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                                <path fill="none" d="M0 0h24v24H0z" />
-                                <path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"/>
-                            </svg>
-                        </div>
-                    </button>
                 </section>
             </div>
             <Skills />
