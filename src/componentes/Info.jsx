@@ -38,7 +38,7 @@ function Info() {
                         This page is 100% responsive.
                     </p>
                     <p className="mb-6 text-xl text-gray-500 dark:text-gray-400">
-                        The dark mode works according to how you have it configured in your browser.
+                        The dark mode works according to how you have it configured in your browser and system.
                     </p>
                     <p className="mb-6 text-xl text-gray-500 dark:text-gray-400">
                         This page is still under development.
