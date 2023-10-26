@@ -49,26 +49,16 @@ export default function Footer() {
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                                <li className="mb-4">
-                                    <a href="#" className="hover:underline">Iconos8</a>
-                                </li>
-                                <li className="mb-4">
-                                    <a href="#" className="hover:underline">Tailwind CSS</a>
-                                </li>
-                                <li>
-                                    <a href="#" className="hover:underline">UIverse</a>
-                                </li>
+                                <li className="mb-4 hover:underline">Iconos8</li>
+                                <li className="mb-4 hover:underline">Tailwind CSS</li>
+                                <li className="hover:underline">UIverse</li>
                             </ul>
                         </div>
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                                <li className="mb-4">
-                                    <a href="#" className="hover:underline">Privacy Policy</a>
-                                </li>
-                                <li>
-                                    <a href="#" className="hover:underline">Terms &amp; Conditions</a>
-                                </li>
+                                <li className="mb-4 hover:underline">Privacy Policy </li>
+                                <li className="hover:underline">Terms &amp; Conditions</li>
                             </ul>
                         </div>
                     </div>
